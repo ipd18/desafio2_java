@@ -1,0 +1,30 @@
+#bordeRed {
+    width: 20%;
+}
+
+.stickers {
+    display: flex;
+    flex-direction: row;
+}
+
+.sticker {
+    width: 20%;
+}
+
+.btn {
+    margin-left: 25%;
+}
+#resultado {
+    margin-left: 23%;
+}
+
+.btn1 {
+    margin-left: 14%;
+}
+#resultadoFinal {
+    margin-left: 12%;
+}
+
+p {
+    font-weight: bold;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="/assets/js/index.js"></script>
+    <title>Desafio 2 java </title>
+</head>
+
+<body>
+    <!--borde-->
+    <h1>Imagen con Borde</h1>
+
+    <img src="/assets/img/mcity4.jpg" id="bordeRed" alt="">
+    <br>
+    <br>
+    <button onclick="bordeRojo()">click para modificar el borde</button>
+    <br>
+    <br>
+
+    <!--sticker-->
+    <h1>Pedir Stickers</h1>
+
+    <div class="stickers">
+        <div class="sticker">
+            <img src="/assets/img/mcity1.jpg" alt="Sticker 1">
+            <br>
+            <input type="number" id="sticker1" min="0" max="10" value="0">
+        </div>
+        <div class="sticker">
+            <img src="/assets/img/mcity2.jpg" alt="Sticker 2">
+            <br>
+            <input type="number" id="sticker2" min="0" max="10" value="0">
+        </div>
+        <div class="sticker">
+            <img src="/assets/img/mcity3.jpg" alt="Sticker 3">
+            <br>
+            <input type="number" id="sticker3" min="0" max="10" value="0">
+        </div>
+    </div>
+    <br>
+    <button class="btn" onclick="calcularStickers()">Calcular</button>
+    <p id="resultado"></p>
+    <br>
+    <br>
+
+    <!--contraseña-->
+    <h1>Verificación de Contraseña</h1>
+
+    <select id="password1">
+        <option value="">Seleccione un número</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <select id="password2">
+        <option value="">Seleccione un número</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <select id="password3">
+        <option value="">Seleccione un número</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <br>
+    <br>
+    <button class="btn1" onclick="verificarPassword()">Ingresar</button>
+    <p id="resultadoFinal"></p>
+
+
+</body>
+
+</html>
